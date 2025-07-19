@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.css">
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+    <title>Slide Menu</title>
+</head>
+<body>
+    <div id="carouselId" class="carousel slide vh-100" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li
+                data-bs-target="#carouselId"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="First slide"
+            ></li>
+            <li
+                data-bs-target="#carouselId"
+                data-bs-slide-to="1"
+                aria-label="Second slide"
+            ></li>
+            <li
+                data-bs-target="#carouselId"
+                data-bs-slide-to="2"
+                aria-label="Third slide"
+            ></li>
+        </ol>
+        <div class="carousel-inner vh-100" role="listbox">
+            <div class="carousel-item active">
+                <img
+                    src="./image.1.jpeg"
+                    class="w-100 d-block vh-100"
+                    alt="First slide"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Aditi World</h3>
+                    <p>Description</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <imgolder.js
+                    src="./image2.jpeg"
+                    class="w-100 d-block vh-100"
+                    alt="Second slide"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Welcome</h3>
+                    <p>Description</p>
+                </div>
+            </div>
+            <div class="carousel-item vh-100">
+                <img
+                    src="./nature.jpg"
+                    class="w-100 d-block vh-100"
+                    alt="Third slide"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>THANKU</h3>
+                    <p>Description</p>
+                </div>
+            </div>
+        </div>
+        <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselId"
+            data-bs-slide="prev"
+        >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselId"
+            data-bs-slide="next"
+        >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    
+</body>
+</html>
