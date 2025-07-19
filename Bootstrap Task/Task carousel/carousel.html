@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.css">
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+    <title>Carousel Navbar</title>
+</head>
+<style>
+    .carousel-item>.content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="carousel slide carousel-fade" id="carousel-example-1">
+            <div class="carousel-inner">
+                <div class="carousel-item">
+                    <div class="content ">
+                        <h1>item 1</h1>
+                        <img class="img-fluid" src="./image.1.jpeg"height="auto"  max-width="100%" alt="">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="content">
+                        <h1>item 2</h1>
+                        <img class="img-fluid" src="./nature.jpg" height="auto"  max-width="100%"alt="">
+                    </div>
+                </div>
+                <div class="carousel-item active">
+                    <div class="content">
+                        <h1>item 3</h1>
+                        <img class="img-fluid" src="./image2.jpeg"height="auto"  max-width="100%" alt="">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="content">
+                        <h1>item 4</h1>
+                        <img class="img-fluid" src="./image3.jpeg" height="auto"  max-width="100%" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carousel-example-1">
+                <span class="carousel-control-prev-icon bg-dark rounded-circle"></span>
+            </button>
+
+            <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#carousel-example-1">
+                <span class="carousel-control-next-icon bg-dark rounded-circle"></span>
+            </button>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
