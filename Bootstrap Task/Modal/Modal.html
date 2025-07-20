@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.css">
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+    <title>Modal</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <button class="btn btn-primary" type="button" data-bs-target="#myModal" data-bs-toggle="modal">Open First Modal</button>
+
+        <div class="modal" id="myModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header bg-info text-white">
+                        <h5 class="modal-title">First Modal</h5>
+                        <button class="btn-close" type="button" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                    <label for="message" class="form-lable">Message</label>
+                    <textarea name="form-control"></textarea> 
+                    </div>
+                    <div class="modal-footer">
+                    <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#secondModal" data-bs-dismiss="modal">Submit</button>
+                    <button class="btn btn-danger" type="button"  data-bs-dismiss="modal">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+                <div class="modal" id="secondModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header alert alert-success">
+                        <h5 class="modal-title">Second Modal</h5>
+                        <button class="btn-close" type="button" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Message Received</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
